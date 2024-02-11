@@ -39,3 +39,6 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 4.- Usamos Python con la Libreria Pandas para unir Data con encabezados
 
 5.- Ingresamos la DATA Limpia y con Encabezados a Tableau y realizamos los DashBoards
+
+6.- Link del proyecto Gamming
+https://drive.google.com/drive/folders/1U8sNd-ArjCOW9tYqZUCoGnILjo9BfB2L?usp=sharing
