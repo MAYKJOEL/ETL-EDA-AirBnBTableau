@@ -1,0 +1,49 @@
+USE airbnb;
+
+-- -------
+SELECT * INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/CalendarAirBnB.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM `calendar`;
+
+SELECT COLUMN_NAME 
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/CalendarAirBnBEncabezado.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'calendar';
+
+-- ---------
+SELECT * INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/ListingAirBnB.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM `listing`;
+
+SELECT COLUMN_NAME 
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/ListingAirBnBEncabezado.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'listing';
+
+-- -------
+SELECT * INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/ReviewsAirBnB.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM `reviews`;
+
+
+SELECT COLUMN_NAME 
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Data/ReviewsAirBnBEncabezado.csv'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'reviews';
+
+
