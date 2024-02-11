@@ -40,5 +40,5 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 
 5.- Ingresamos la DATA Limpia y con Encabezados a Tableau y realizamos los DashBoards
 
-6.- Link del proyecto Gamming
+6.- Link del proyecto AirBnB
 https://drive.google.com/drive/folders/1U8sNd-ArjCOW9tYqZUCoGnILjo9BfB2L?usp=sharing
