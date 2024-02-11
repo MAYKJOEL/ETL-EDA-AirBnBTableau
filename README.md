@@ -22,3 +22,20 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 | calendar.csv: (incluye datos de ocupación, precio, etc.)  
 | listings.csv: Detalle de cada operación de Listing (incluye datos descriptivos de la vivienda (ambientes, host, noches mínimas y máximas, cantidad de reviews)
 | reviews.csv Datos de review de los usuarios.
+
+
+------
+
+------
+
+### SOLUCION:
+
+1.- Ingreamos los TRES CSV AL MySQL WorkBrench y realizamos el ETL
+
+2.- Creamos una columna con analisis de sentimiento y lo agregamos a la tabla reviews
+
+3.- Exportamos la DATA limpia pero con encabezados y Data separados
+
+4.- Usamos Python con la Libreria Pandas para unir Data con encabezados
+
+5.- Ingresamos la DATA Limpia y con Encabezados a Tableau y realizamos los DashBoards
