@@ -30,7 +30,24 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 
 ### SOLUCION:
 
-1.- Ingreamos los TRES CSV AL MySQL WorkBrench y realizamos el ETL
+NOTA IMPORTANTE ANTES DE EMPEZAR:
+
+Antes de empezar si se desea ver la presentacion, aclaro que la DATA está comprimida: 
+  * Hay que entrar a la carpeta "8.- Data Limpia con Encabezado"
+  * Encontraremos una carpeta ZIP llamada "Data limpia con encabezado.zip", ahí dentro estan 3 archivos CSV
+  * Esos archivos hay q descomprimirlo, y pasarlos dentro de la carpeta "8.- Data Limpia con Encabezado".
+  * por lo tanto, quedarian dentro de la carpeta "8.- Data Limpia con Encabezado":
+    
+            *  "CalendarAirBnBCE.csv"
+            *  "ListingAirBnBCE.csv"
+            *  "ReviewsAirBnBCE.csv" y
+            *  "Data limpia con encabezado.zip"
+
+PROCEDIMIENTOS CON EL CUAL SE REALIZO EL ETL Y EDA DEL PROYECTO:
+
+1.- Ahora ya podremos leer y abrir con normalidad el Dashboard Con Tableau 2019.3 profesional
+
+1.-Ingreamos los TRES CSV AL MySQL WorkBrench y realizamos el ETL
 
 2.- Creamos una columna con analisis de sentimiento y lo agregamos a la tabla reviews
 
