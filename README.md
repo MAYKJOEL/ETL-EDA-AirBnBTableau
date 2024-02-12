@@ -28,14 +28,35 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 
 ------
 
-### SOLUCION:
+### SOLUCIÓN:
 
-1.- Ingreamos los TRES CSV AL MySQL WorkBrench y realizamos el ETL
+NOTA IMPORTANTE ANTES DE EMPEZAR:
 
-2.- Creamos una columna con analisis de sentimiento y lo agregamos a la tabla reviews
+Antes de empezar si se desea ver la presentación, aclaro que la DATA está comprimida, ya que superaba los 100mb que permite GitHub: 
+  * Hay que entrar a la carpeta "8.- Data Limpia con Encabezado"
+  * Encontraremos una carpeta ZIP llamada "Data limpia con encabezado.zip", ahí dentro están 3 archivos CSV
+  * Esa Carpeta hay que descomprimirla y pasar los archivos CSV a la carpeta "8.- Data Limpia con Encabezado".
+  * Por lo tanto, quedarían dentro de la carpeta "8.- Data Limpia con Encabezado" lo siguiente:
+    
+            *  "CalendarAirBnBCE.csv"
+            *  "ListingAirBnBCE.csv"
+            *  "ReviewsAirBnBCE.csv" y
+            *  "Data limpia con encabezado.zip"
 
-3.- Exportamos la DATA limpia pero con encabezados y Data separados
+Ahora ya se puede abrir y leer con normalidad el Dashboard Con Tableau 2019.3 profesional.
 
-4.- Usamos Python con la Libreria Pandas para unir Data con encabezados
 
-5.- Ingresamos la DATA Limpia y con Encabezados a Tableau y realizamos los DashBoards
+PROCEDIMIENTOS CON EL CUAL SE REALIZÓ EL ETL Y EDA DEL PROYECTO:
+
+1.-Ingreamos los TRES CSV AL MySQL WorkBrench y realizamos el ETL
+
+2.- Creamos una columna con análisis de sentimiento y lo agregamos a la tabla reviews
+
+3.- Exportamos la DATA limpia pero con "encabezados y Data" por separado
+
+4.- Usamos Python con la Librería Pandas para unir la "Data con encabezados" de las tablas
+
+5.- Ingresamos la DATA ya Lista para trabajar en Tableau y realizamos los DashBoards requeridos.
+
+6.- Link del proyecto AirBnB
+https://drive.google.com/drive/folders/1U8sNd-ArjCOW9tYqZUCoGnILjo9BfB2L?usp=sharing
