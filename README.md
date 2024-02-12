@@ -32,7 +32,7 @@ En base al análisis descriptivo encontrar oportunidades de inversión que pueda
 
 NOTA IMPORTANTE ANTES DE EMPEZAR:
 
-Antes de empezar si se desea ver la presentación, aclaro que la DATA está comprimida: 
+Antes de empezar si se desea ver la presentación, aclaro que la DATA está comprimida, ya que superaba los 100mb que permite GitHub: 
   * Hay que entrar a la carpeta "8.- Data Limpia con Encabezado"
   * Encontraremos una carpeta ZIP llamada "Data limpia con encabezado.zip", ahí dentro están 3 archivos CSV
   * Esa Carpeta hay que descomprimirla y pasarlos dentro de la carpeta "8.- Data Limpia con Encabezado".
